@@ -16,5 +16,12 @@ dependencies = [
   "check-jsonschema"
 ]
 
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+
 [project.scripts]
 tooling = "openauthcert_tooling.__main__:main"
+validate-vendor = "openauthcert_tooling.validate_vendor:main"
