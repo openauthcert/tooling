@@ -11,8 +11,8 @@ Install in editable mode and run the provided commands:
 
 ```bash
 pip install -e .[test]
-validate-vendor path/to/vendor.json
-python -m openauthcert_tooling validate-badge path/to/badge.json
+tooling validate-vendor path/to/vendor.json
+tooling validate-badge path/to/badge.json
 ```
 
 ## Exit Codes
